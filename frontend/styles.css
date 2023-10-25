@@ -191,4 +191,14 @@ body{
                     border: none;
                     border-radius: 5px;
                 }
+                
+                #restartElection button {
+                    font-size: large;
+                    padding: 5px 10px;
+                    margin: 5px;
+                    color: white;
+                    background-color: red;
+                    border: none;
+                    border-radius: 5px;
+                }
 
