@@ -16,6 +16,7 @@ Go to the separate directories and execute the following command:
 We keep track of the owner of the contract in Voting.sol, so if you try to directly execute the frontend, it won't work.
 To deploy your own contract, do the following:
 ### 1. Make a .env file
+Make an .env file in the hardhat directory where you'll store your private keys, RPC URLs, etc.
 ```touch .env```
 ### 2. Add relevant details
 We will use the Sepolia testnet to deploy the contract. Hence, you would need:
