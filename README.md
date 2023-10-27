@@ -21,7 +21,7 @@ Make an .env file in the hardhat directory where you'll store your private keys,
 ### 2. Add relevant details
 We will use the Sepolia testnet to deploy the contract. Hence, you would need:
 1. METAMASK PRIVATE KEY
-2. SEPOLIA RPC URL
+2. SEPOLIA RPC URL (Recommended to get the RPC URL from Alchemy)
 3. ETHERSCAN API KEY
 ### 3. Deploy your contract
 ```npx hardhat run scripts/deploy.js --network sepolia```
